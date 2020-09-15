@@ -1,0 +1,43 @@
+
+.mainText{
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 20px;
+
+}
+.addMain{
+    height: 130px;
+    display: flex;
+    border:1px solid grey;
+    width: max-content;    
+}
+
+.imgcon{
+    align-content: flex-start;
+    width: 90px;
+    height: 90px;
+    padding:10px;
+}
+
+img{
+ 
+    height:90px
+ 
+}
+
+.addhead{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    flex: 1;
+    padding-left: 10px;
+}
+.addDesc{
+    padding-right: 10px !important;
+    padding-left: 10px;
+}
+h3{
+    padding-right: 10px;
+}

@@ -1,0 +1,33 @@
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+
+}
+
+.addClass{
+    background-color: white;
+}
+.heading{
+    text-align: left;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 20px;
+
+}
+.totalPrice{
+    margin: 20px;
+    background-color: #696969;
+    color: white;
+    padding-bottom: 10px;
+}
+.SerName{
+    padding-top: 10px;
+    font-size: 24px;
+}
+.SerPrice{
+    padding-top: 10px;
+    font-size: 24px;
+}

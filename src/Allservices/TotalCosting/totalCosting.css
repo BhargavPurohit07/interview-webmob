@@ -1,0 +1,13 @@
+.totalCosting{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.serName{
+    padding-top: 10px;
+    font-size: 24px;
+}
+.serPrice{
+    padding-top: 10px;
+    font-size: 24px;
+}
