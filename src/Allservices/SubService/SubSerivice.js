@@ -1,7 +1,6 @@
 import React from 'react'
-import '../AddinationalServices/add.css'
-
-function PurchasedSer (props) {
+import './add.css'
+function SubSer (props) {
   return (
     <div>
       <div className='mainText'> {props.mainText}</div>
@@ -13,7 +12,7 @@ function PurchasedSer (props) {
           <div className='addhead'>
             <h2>{props.serName}</h2>
 
-            <h3>Price:- {props.price}</h3>
+            <h3>Price:-  {props.price}</h3>
           </div>
 
           <div className='addDesc'>{props.decs}</div>
@@ -23,4 +22,4 @@ function PurchasedSer (props) {
   )
 }
 
-export default PurchasedSer
+export default SubSer

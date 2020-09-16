@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-import Addinational from './AddinationalServices/AddinationalSer'
-import PurchasedSer from './Purchasedservices/PurchasedSer'
+import SubSer from './SubService/SubSerivice'
 import TotalCosting from './TotalCosting/TotalCosting'
 import './Service.css'
 
@@ -28,7 +27,7 @@ class Services extends Component {
         if (k.service_selected != null) {
           totalCosting.push(k)
           return (
-            <PurchasedSer
+            <SubSer
               key={k.id}
               mainText={pk.name}
               img={k.image}
@@ -45,7 +44,7 @@ class Services extends Component {
     let addser = this.state.purData.map(pk =>
       pk.purchased_office_template.purchased_office_services.map(k =>
         k.service_selected == null ? (
-          <Addinational
+          <SubSer
             key={k.id}
             mainText={pk.name}
             img={k.image}
